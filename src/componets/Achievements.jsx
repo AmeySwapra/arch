@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Container, Flex, Image, Text, useBreakpointValue, VStack } from "@chakra-ui/react";
 
 import backgroundImage from "../assets/banner/pic4.webp";
 import adindiaImage from "../assets/achivements/pic1.webp";
@@ -79,7 +79,7 @@ const Achievements = () => {
             borderRadius="lg"
             boxShadow="lg"
             mb={10}
-            gap={index === 1 ? "400px" : "0px"}
+            gap={useBreakpointValue({ base: "0px", md: index === 1 ? "400px" : "0px" })}
           >
             {/* Image Section */}
             <Box flex="1" textAlign="center">

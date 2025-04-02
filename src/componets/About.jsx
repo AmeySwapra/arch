@@ -37,7 +37,7 @@ const About = () => {
   };
 
   return (
-    <Box py={{ base: 10, md: 10 }} px={{ base: 4, md: 8, lg: 24 }}>
+    <Box py={{ base: 10, md: 10 }} overflowX='hidden' px={{ base: 4, md: 8, lg: 24 }}>
       <Container maxW="6xl">
         {/* Section Title */}
         <VStack spacing={3} textAlign="center">
@@ -65,7 +65,7 @@ const About = () => {
         {/* Content Section */}
         <Flex
           direction={{ base: "column", lg: "row" }}
-          mt={10}
+        
           align="center"
           justify="space-between"
         >

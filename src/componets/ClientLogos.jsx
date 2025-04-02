@@ -75,6 +75,7 @@ const ClientCarousel = () => {
       bgPos="center"
       py={6}
       px={{ base: 4, md: 8, lg: 24 }}
+      overflowX={'hidden'}
     >
       <Box maxW="1200px" mx="auto">
         <Box mb={8} textAlign="left">

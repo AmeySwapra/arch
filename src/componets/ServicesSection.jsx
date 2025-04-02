@@ -39,7 +39,7 @@ import {
   
   const ServicesSection = () => {
     return (
-      <Box bgImage={`url(${banner})`} bgPos="center" py={20} px={4}>
+      <Box bgImage={`url(${banner})`} overflowX={'hidden'} bgPos="center" py={20} px={4}>
         <Container maxW="6xl">
           {/* Title */}
           <Box textAlign={{ base: "center", md: "left" }} color="black" mb={8}>

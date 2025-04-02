@@ -37,7 +37,7 @@ const footerImages = [footer1, footer2, footer3, footer4, footer5, footer6, foot
 
 const Footer = () => {
   return (
-    <Box bgImage={`url(${footerbg})`} bgSize="cover" bgPos="center" pt={10} pb={0}>
+    <Box bgImage={`url(${footerbg})`} bgSize="cover" overflowX={'hidden'} bgPos="center" pt={10} pb={0}>
       <Container maxW="container.xl" color="white">
         <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={8}>
           {/* About Company */}

@@ -4,6 +4,7 @@ import Banner from "../componets/common/Banner";
 import Footer from "../componets/common/Footer";
 import pic3 from "../assets/banner/pic3.webp";
 import Achievements from "../componets/Achievements";
+import SocialBar from "../componets/common/SocialBar";
 
 function AchivementPage() {
   return (
@@ -14,6 +15,7 @@ function AchivementPage() {
         text="Delivering architecture, planning, and design globally."
         title="Our Achievements"
       />
+      <SocialBar/>
       <Achievements/>
       <Footer/>
     </>

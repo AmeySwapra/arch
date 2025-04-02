@@ -4,6 +4,7 @@ import Banner from "../componets/common/Banner";
 import pic1 from "../assets/banner/pic1.webp";
 import Footer from "../componets/common/Footer";
 import NavigationButtons from "../componets/NavigationButtons";
+import SocialBar from "../componets/common/SocialBar";
 
 function SiteMapPage() {
   return (
@@ -15,6 +16,7 @@ function SiteMapPage() {
         title="Sitemap"
       />
       <NavigationButtons/>
+      <SocialBar/>
       <Footer/>
     </>
   );

@@ -4,6 +4,7 @@ import Banner from "../componets/common/Banner";
 import Footer from "../componets/common/Footer";
 import pic1 from "../assets/banner/pic1.webp";
 import Expert from "../componets/Expert";
+import SocialBar from "../componets/common/SocialBar";
 function ExpertPage() {
   return (
     <>
@@ -13,6 +14,7 @@ function ExpertPage() {
         text="Fusing logic with imagination and truth with discovery."
         title="Our Experts"
       />
+      <SocialBar/>
       <Expert/>
       <Footer />
     </>

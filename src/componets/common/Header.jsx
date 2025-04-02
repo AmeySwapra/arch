@@ -7,7 +7,7 @@ const Header = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
-        <Box bg="white" px={{base: 4, md: 8, lg : 24}} boxShadow="md" position="sticky" py={4} top={0} zIndex={1000}>
+        <Box bg="white"  px={{base: 4, md: 8, lg : 24}} boxShadow="md" position="sticky" py={4} top={0} zIndex={1000}>
             <Flex h={16} alignItems="center" justifyContent="space-between">
                 {/* Logo */}
                 <Box>

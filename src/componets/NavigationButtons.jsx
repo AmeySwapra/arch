@@ -16,9 +16,9 @@ const menuItems = [
 
 const NavigationButtons = () => {
   return (
-    <Box maxW="1200px" mx="auto" py={6} px={{ base: 4, md: 8, lg: 24 }}>
+    <Box maxW="1200px" mx="auto" py={6} px={{ base: 2, md: 6, lg: 12 }}>
       <Grid
-        templateColumns={{ base: "repeat(2, 1fr)", sm: "repeat(3, 1fr)", md: "repeat(5, 1fr)" }}
+        templateColumns={{ base: "repeat(1, 1fr)", sm: "repeat(2, 1fr)", md: "repeat(3, 1fr)", lg: "repeat(5, 1fr)" }}
         gap={4}
         justifyContent="center"
       >
@@ -27,7 +27,7 @@ const NavigationButtons = () => {
             as={Link}
             to={item.link}
             key={index}
-            w={'250px'}
+            w={{ base: "100%", sm: "auto" }}
             h={'50px'}
             color="white"
             bg='black'

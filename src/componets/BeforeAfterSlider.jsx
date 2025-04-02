@@ -62,6 +62,7 @@ const BeforeAfterSlider = () => {
       position="relative"
       width="100%"
       height="500px"
+      overflowX={'hidden'}
       marginTop="-14px"
       marginBottom="0"
       bg="gray.800"
@@ -126,8 +127,8 @@ const BeforeAfterSlider = () => {
             justifyContent="center"
             cursor="move"
           >
-            <Text mr="10px">←</Text>
-            <Text ml="10px">→</Text>
+            <Text mr="10px" color={'black'}>←</Text>
+            <Text ml="10px" color={'black'}>→</Text>
           </Flex>
         </Box>
 

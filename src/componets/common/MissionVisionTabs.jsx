@@ -31,7 +31,7 @@ import {
           <TabList 
             display="flex" 
             justifyContent="center" 
-            bg="gray.50" 
+            bg="#f2edeb"
             p={2} 
             borderRadius="full" 
             boxShadow="md"
@@ -39,7 +39,7 @@ import {
             <Tab 
               _selected={{ bg: "red.500", color: "white", fontWeight: "bold" }} 
               borderRadius="full" 
-              bg="gray.50" 
+              bg="#f2edeb"
               px={6}
             >
               Mission
@@ -71,7 +71,7 @@ import {
                     key={index} 
                     p={3} 
                     borderRadius="md" 
-                    bg="gray.50" 
+                    bg="#f2edeb" 
                     boxShadow="sm"
                     display="flex" 
                     alignItems="center"

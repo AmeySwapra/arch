@@ -22,7 +22,7 @@ const Expert = () => {
           {/* Member 1 */}
           <Flex
             direction={{ base: "column", md: "row" }}
-            bg="gray.100"
+            bg="#f2edeb"
             p={6}
             borderRadius="md"
             boxShadow="md"
@@ -46,7 +46,7 @@ const Expert = () => {
           {/* Member 2 */}
           <Flex
             direction={{ base: "column", md: "row" }}
-            bg="gray.100"
+            bg="#f2edeb"
             p={6}
             borderRadius="md"
             boxShadow="md"

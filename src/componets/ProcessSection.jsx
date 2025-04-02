@@ -49,6 +49,7 @@ const ProcessSection = () => {
       position="relative"
       py={10}
       px={4}
+      overflowX={'hidden'}
     >
       <Box bg="blackAlpha.800" position="absolute" top={0} left={0} right={0} bottom={0} zIndex={0} />
       <Container maxW="6xl" position="relative" zIndex={1}>

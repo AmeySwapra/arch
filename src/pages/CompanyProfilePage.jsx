@@ -5,6 +5,7 @@ import Banner from "../componets/common/Banner";
 import pic1 from "../assets/banner/pic1.webp";
 import CompanyProfile from "../componets/CompanyProfile";
 import MissionVisionTabs from "../componets/common/MissionVisionTabs";
+import SocialBar from "../componets/common/SocialBar";
 
 function CompanyProfilePage() {
   return (
@@ -15,6 +16,7 @@ function CompanyProfilePage() {
         text="Fusing logic with imagination and truth with discovery."
         title="Company Profile"
       />
+      <SocialBar/>
       <CompanyProfile/>
       <MissionVisionTabs/>
       <Footer />

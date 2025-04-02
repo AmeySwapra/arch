@@ -13,6 +13,7 @@ function InteriorDesignPage() {
         text="Passionate about great architecture and all things sustainable."
         title="Interior Design Services"
       />
+      <SocialBar/>
       <IndustrialArchitecture/>
       <Footer/>
     </>
